@@ -1,4 +1,25 @@
-#question1{
+.question1{
+    display: flex;
+    color: goldenrod;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.question2{
+    display: flex;
+    color: goldenrod;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+.question3{
     display: flex;
     color: goldenrod;
     font-size: 30px;
