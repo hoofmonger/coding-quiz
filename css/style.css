@@ -6,6 +6,7 @@
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    list-style: none;
 }
 
 .question2{
@@ -16,6 +17,7 @@
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    list-style: none;
 }
 
 
@@ -27,4 +29,10 @@
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    list-style: none;
 }
+
+*{
+    background-color: rgb(171, 68, 175);
+}
+
