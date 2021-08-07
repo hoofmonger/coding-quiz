@@ -1,0 +1,21 @@
+var questionOne = document.getElementsByClassName("question1")
+var questionTwo = document.getElementsByClassName("question2")
+var questionThree = document.getElementsByClassName("question3")
+var answerOneOne = document.getElementById("answer1-1")
+var answerTwoOne = document.getElementById("answer2-1")
+var answerThreeOne = document.getElementById("answer3-1")
+var answerFourOne = document.getElementById("answer4-1")
+var answerOneTwo = document.getElementById("answer1-2")
+var answerTwoTwo = document.getElementById("question2-2")
+var answerThreeTwo = document.getElementById("question3-2")
+var answerFourTwo = document.getElementById("question4-2")
+var answerOneThree = document.getElementById("question1-3")
+var answerTwoThree = document.getElementById("question2-3")
+var answerThreeThree = document.getElementById("question3-3")
+var answerFourThree = document.getElementById("answer4-3")
+var startButton = document.getElementsByClassName("startbutton")
+var resetButton = document.getElementsByClassName("resetbutton")
+var saveButton = document.getElementsByClassName("savebutton")
+
+
+
