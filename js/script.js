@@ -17,5 +17,5 @@ var startButton = document.getElementsByClassName("startbutton")
 var resetButton = document.getElementsByClassName("resetbutton")
 var saveButton = document.getElementsByClassName("savebutton")
 
-
+//up next, defining the correct answers with if, if else, else statements.  
 
