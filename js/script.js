@@ -1,6 +1,6 @@
-var questionOne = document.getElementsByClassName("question1")
-var questionTwo = document.getElementsByClassName("question2")
-var questionThree = document.getElementsByClassName("question3")
+var questionOne = [answerOneOne, answerTwoOne, answerThreeOne, answerFourOne]
+var questionTwo = [answerOneTwo, answerTwoTwo, answerThreeTwo, answerFourTwo]
+var questionThree = [answerOneThree, answerTwoThree, answerThreeThree, answerFourThree]
 var answerOneOne = document.getElementById("answer1-1")
 var answerTwoOne = document.getElementById("answer2-1")
 var answerThreeOne = document.getElementById("answer3-1")
@@ -16,6 +16,16 @@ var answerFourThree = document.getElementById("answer4-3")
 var startButton = document.getElementsByClassName("startbutton")
 var resetButton = document.getElementsByClassName("resetbutton")
 var saveButton = document.getElementsByClassName("savebutton")
+var timeLeft = 60
 
 //up next, defining the correct answers with if, if else, else statements.  
 
+startButton.getEventListener ("click", startQuiz)
+
+function startQuiz (
+    function questionOne(
+
+    ) {
+        
+    }
+)
