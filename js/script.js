@@ -17,18 +17,22 @@ var startButton = document.getElementsByClassName("startbutton")
 var resetButton = document.getElementsByClassName("resetbutton")
 var saveButton = document.getElementsByClassName("savebutton")
 var timeLeft = 60
-var correctAnswers = 0
+var possibleCorrectAnswers = [0, 1, 2, 3]
+var actualCorrectAnswers = []
 
 //up next, defining the correct answers with if, if else, else statements.  
 
-startButton.getEventListener ("click", startQuiz)
+startButton.addEventListener ("click", startQuiz)
 
 function startQuiz (){
      function questionOneFun(){
-         if (addEventListener("click", answerFourOne));
+         if (addEventListener("click", answerFourOne)){
          (correctAnswers++);
-         console.log(correctAnswers)
-         console.log(questionOneFun)
-         for (var correctAnswers; correctAnswers <1, ++correctAnswers){
-             
+         console.log(correctAnswers);
+         console.log(questionOneFun);}
+
+         else (addEventListener("click", answerOneOne, answerOneTwo, answerThreeOne));{
+             console.log("Wrong Answer")
          }
+
+        }}
